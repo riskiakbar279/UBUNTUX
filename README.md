@@ -4,11 +4,11 @@ install ubuntu server &amp;&amp; desktop , gunakan android/ios anda :)
 # UBUNTU SERVER
 
 # UBUNTU DESKTOP
-pkg install x11-repo
-pkg install tigervnc
-vncserver
-vncpasswd  (note : masukan password minimal 4-6)
-export DISPLAY=":1"
+# $pkg install x11-repo
+# $pkg install tigervnc
+# $vncserver
+# $vncpasswd  (note : masukan password minimal 4-6)
+# $export DISPLAY=":1"
 
 # sampai tahap ini harusnya aplikasi GUI di termux mu sudah bisa dijalankan dan tidak menampilkan pesan “Gtk-WARNING **: cannot open display: :0.0” #
 
@@ -22,5 +22,5 @@ note (penting)
 jika lupa password anda 
 masukan perintah : 
 
-vncpassword
-ifconfig
+# $vncpassword
+# $ifconfig
