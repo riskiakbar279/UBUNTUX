@@ -16,10 +16,13 @@ note (penting)
 
 "(TERMUX ERROR ” Gtk-WARNING **: cannot open display: :0.0) "
 
-“Pesan ini akan muncul jika environment variable belum diset (lihat langkah 3) atau vncserver kamu belum berjalan,jadi pastikan cek dulu apakah vnc server mu sudah berjalan dengan mengetikan perintah $ vncserver -listsetiap kali kamu ingin menjalankan aplikasi GUI di termux , untuk close/kill vnc server di termux kamu bisa menggunakan perintah $ vncserver -kill :a (ganti a dengan nomer display)
+“Pesan ini akan muncul jika environment variable belum diset (lihat langkah 3) atau vncserver kamu belum berjalan,jadi pastikan cek dulu apakah vnc server mu sudah berjalan dengan mengetikan perintah 
+# $vncserver -list
+setiap kali kamu ingin menjalankan aplikasi GUI di termux , untuk close/kill vnc server di termux kamu bisa menggunakan perintah 
+
+# $vncserver -kill :a (ganti a dengan nomer display)
 
 # download vncserver di Android / ios
-
 untuk mengakses GUI termux di android mu dari hp android mu kamu bisa buka aplikasi vnc viewer di android > klik tanda plus > pada address masukan 127.0.0.1:5901 ,beri nama terserah lalu tap create
 kalau sudah di create kamu tap ke list vnc yang kamu buat tadi, jika minta password masukan password yang telah kamu set di vnc server tadi.Harusnya kamu sudah mendapatkan tampilan hitam dan ada terminal linux nya,kamu bisa mengeksekusi aplikasi GUI dari terminal emulator tersebut.
 
